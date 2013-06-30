@@ -1,0 +1,21 @@
+{
+  "meteor": {},
+  "dependencies": {
+    "basePackages": {
+      "opentok": {},
+      "cookie": {}
+    },
+    "packages": {
+      "opentok": {
+        "git": "https://github.com/cultofmetatron/OpenTok-meteor.git",
+        "tag": "v1.0.0",
+        "commit": "f21c8bfa4c48793632a0ccb09b3d765499aa1e7b"
+      },
+      "cookie": {
+        "git": "https://github.com/chuangbo/meteor-cookie.git",
+        "tag": "v1.0.2.2",
+        "commit": "e8659ecdec442916938726df11e9153f06c349e5"
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+<head>
+  <title>vstream</title>
+  <script src="http://static.opentok.com/webrtc/v2.0/js/TB.min.js" ></script>
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+</head>
+
+<body>
+	{{> room}}
+ 	<h1>Swag</h1>
+
+	
+	<h1>Me</h1>
+	<div id="mystream">
+	</div>
+	<h1>Others</h1>
+	<div id="otherstreams"></div>
+
+</body>
+
+<template name='room'>
+	<form class='room-form'>
+	<input type='text' placeholder='room name' class='room-name' />
+	<button class='go-to-room'>Go to room</button>
+	</form>
+	<p>Your room is {{roomName}}</p>
+	<p>It has {{peopleCOunt}}</p>
+</template>

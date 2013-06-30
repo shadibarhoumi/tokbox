@@ -1,0 +1,11 @@
+/* CSS declarations go here */
+
+#mystream {
+	border: 2px solid;	
+	border-color: red;
+}
+
+#otherstreams {
+	border: 2px solid;	
+	border-color: green;
+}
